@@ -1,1 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+  background-color: #202020;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  background-color: #181818;
+}
+
+aside {
+  height: 100%;
+  width: 17%;
+  background-color: #212121;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 15px 15px;
+  border-top: 1px solid #383838;
+}
+
+.tablist {
+  height: 56px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+  transform: translateY(-15px);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left #menu {
+  padding: 0 7px;
+  cursor: pointer;
+}
+
+.youtubesearch {
+  display: flex;
+  gap: 20px;
+}
+
+.youtubesearch form {
+  display: flex;
+  border: 1px solid #303030;
+  height: 45px;
+}
+
+.youtubesearch input {
+  width: 500px;
+  padding: 10px;
+  border: 0;
+  height: 100%;
+  border-radius: 2px 0 0 2px;
+  background-color: #121212;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #3263b9;
+}
+
+.youtubesearch button {
+  height: 100%;
+  width: 60px;
+  border: none;
+  background-color: #313131;
+}
+
+.youtubemic {
+  margin-top: 10px;
+}
+
+.youtubeicons.right {
+  display: flex;
+  gap: 5px;
+}
+
+.right-icon {
+  transform: translateY(9px);
+}
+
+.right-button {
+  background-color: #212121;
+  align-items: center;
+  border: 1px solid #3263b9;
+  color: #3263b9;
+  display: flex;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.account_circle_right {
+  transform: translateX(-4px);
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+.nav-link span {
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.nav-links:hover {
+  background: #383838;
+  cursor: pointer;
+}
+
+.active {
+  background: #383838;
+}
+
+hr {
+  height: 1px;
+  background-color: #383838;
+  border: none;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.comment button {
+  background-color: #212121;
+  align-items: center;
+  border: 1px solid #3263b9;
+  color: #3263b9;
+  padding: 9px;
+  display: flex;
+  cursor: pointer;
+}
+
+.account_circle {
+  transform: translateX(-10px);
+}
+
+.tablist-btn {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #212121;
+  color: #ffffff;
+  border: none;
+}
+
+.tablist-btn:nth-child(1) {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+.btn-trans:hover {
+  background: #383838;
+  cursor: pointer;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 270px;
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 170px;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  height: 94%;
+  width: 100%;
+}
+
+.author img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.details {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h3 {
+  color: #030303;
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.title a,
+span {
+  text-decoration: none;
+  color: #606060;
+  font-size: 12px;
+}
 
